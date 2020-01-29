@@ -32,6 +32,7 @@ class UserDetail extends React.Component {
         return (
             !show &&
                 <div className="user-details">
+                    PROFILE
                     <img src={avatar} />
                         <h4>{first_name}<> </>{last_name}</h4>
                     <p>{email}</p>
